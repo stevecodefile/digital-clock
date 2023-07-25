@@ -1,0 +1,30 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #131313;
+}
+
+.clock{
+    font-size: 180px;
+    font-weight: 400;
+    font-family: 𝚃𝚢𝚙𝚎 𝚜𝚘𝚖𝚎𝚝𝚑𝚒𝚗𝚐 𝚝𝚘 𝚜𝚝𝚊𝚛𝚝;
+    padding: 20px;
+    color: cyan;
+    border: 2px solid rgb(67, 67, 67);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.7);
+    animation: glow 2s ease-in-out infinite;
+
+}
+@keyframes glow {
+    0%,100%{
+        box-shadow:  0 0 20px rgba(0, 255, 183, 0.7);
+    }
+    50%{
+        box-shadow:  0 0 40px rgba(0, 255, 208, 0.9);
+    }
+    
+}
